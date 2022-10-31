@@ -5,8 +5,11 @@ Data Analysis on Worldwide Child Malnutrition
 
 ## Authors
 Jing Cao caojing@uw.edu
+
 Jingjing Dong jdong02@uw.edu
+
 Xinyue Sun xsun6@uw.edu
+
 Erica Zhang qiyinz@uw.edu
 
 
