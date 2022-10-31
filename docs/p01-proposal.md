@@ -57,12 +57,32 @@ These three aspects together make up the data on child malnutrition, and they al
 ### Summary of dataset
 <img width="519" alt="截屏2022-10-31 下午4 32 53" src="https://user-images.githubusercontent.com/114948331/199128801-f4b23c80-7b00-4efa-ba87-a24cd2457d46.png">
 
+### Relate to Research Questions
+Because all datasets cover prevalence trend indices, such a dataset helps us to study the prevalence of malnourished children in general. The dataset counts data for each country, which facilitates us to study how child malnutrition differs or affects each region. By comparing the trends of malnourished children across countries and regions, further analysis of the impact of household income could be reached.
 
+### The Provenance of Our Dataset
+The collector of the dataset is the United Nations International Children's Emergency Fund (UNICEF). The first version of Joint Malnutrition Estimates was released in 2012 and provided estimates of stunting, wasting, severe wasting, underweight, and overweight, with detailed descriptions of the methodology. The latest edition was updated in May 2022. UNICEF has a mission to address the long-term needs of children and women in developing countries everywhere. This dataset was created to respond to the call for harmonization of child malnutrition estimates. UNICEF relies solely on voluntary contributions. Researchers and related organizations and institutions wishing to conduct statistics and research on undernourished children have access to this data set for valid analysis (Malnutrition in Children, 2022).   
+Since UNICEF is a nonprofit, nongovernmental organization, there are not many people who can profit from this data. They validate the data by updating national primary source data sets, applying country-level models of stunting and overweight to generate annual estimates, generating regional and global totals for stunting, wasting, severe wasting, and overweight, and consulting with countries before finalizing and disseminating estimates for 2021. They have the UNICEF Data Warehouse to host the dataset, which contains a database of hundreds of internationally valid and comparable indicators (Query Data, 2020). It is a credible source of data because the organization has reliable sources of data collection and models for collating data.  
+We obtain these data by accessing the official UNICEF website, querying, and filtering relevant data, and downloading data. When analyzing and using the data, such as writing paragraphs and creating web pages, we will indicate the source of the data. The above information is derived from the official website of UNICEF. 
 
+## Expected Implications
+The first expected implication is linked mainly with the direct stakeholder we have stated in the problem domain, policymakers or child welfare organizations. For policymakers, after examining the recent trends in child malnutrition, possible actions they might take are setting more strict standards in checking the food quality for children. In addition, it is also possible for them to enact welfare policies with a more intuitive focus on regions that have the most severe circumstances. Besides, we also expect that child welfare organizations worldwide will thrive to provide more assistance for children with malnutrition and work toward guaranteeing every child's well-being.  
+The second expected implication is our indirect stakeholder, children's food manufacturers. As we strive for greater awareness of child malnutrition, we anticipate that children's food manufacturers might be contacted and reached by policymakers or welfare organizations. We expect those food manufacturers to put efforts into dealing with child malnutrition, for example, introducing more nutritionally balanced products and putting more consideration on regional differences. 
 
-**TODO**: Edit this file. Your project proposal goes here.
+## Limitations
+The first limitation we are encountering is the estimated dataset. All the data files we are using are modeled, and survey estimates. In detail, UNICEF applied country-level models to generate annual estimates, generating regional and global totals of stunting, wasting, severe wasting, and overweight. Therefore, we are concerned about the lack of accuracy in this information. Specifically, some factors we considered are over-optimism about the circumstance or failure to account for risks (Malnutrition in Children, 2022). Plus, algorithm models would inevitably result in unexpected bias or discrimination(Shin, 2020). To address this limitation, we decided not to use the dataset directly. Instead, we will calculate the ratio or proportion by adopting more datasets and providing a relatively more accurate result.   
+The second limitation we are concerning is the lack of data for some regions. With this limitation, we will possibly encounter difficulty in answering our research question, how the extent of child malnutrition varies by country and region? In addressing this problem, we will make explicit explanations on that and try to eliminate misleading information to the largest extent.  
 
-For what to do, see the [`../instructions/`](../instructions/) directory, specifically: 
+## Acknowledgements
+We are very thankful for our friends that provided inspiration for us and helped us brainstorm. And we are also grateful to UNICEF for making the dataset and dedicating more attention to kids worldwide. 
 
-* [Design Brief](../instructions/project-design-brief.pdf)
-* [Project Proposal Requirements](../instructions/p01-proposal-requirements.md)
+## References 
+Malnutrition in Children. (2022, September 6). UNICEF DATA. https://data.unicef.org/topic/nutrition/malnutrition/  
+Query Data. UNICEF DATA. (2020, June 17). https://data.unicef.org/dv_index/  
+Shin, T. (2020, June 4). Real-life examples of discriminating artificial intelligence. https://towardsdatascience.com/real-life-examples-of-discriminating-artificial-intelligence-cae395a90070  
+World Health Organization. (n.d.). Children: Improving survival and well-being. World Health Organization. https://www.who.int/news-room/fact-sheets/detail/children-reducing-mortality  
+Sustained friendships - envisioning cards. envisioningcards. (2011). http://www.envisioningcards.com/envision_pdfs/Time-Sustained-Friendships.pdf  
+
+## Appendix A: Questions
+We are wondering if our topic idea is solid enough and what suggestions you have for our final project?
+
