@@ -33,6 +33,16 @@ For our analysis, people who have been concerned about children and children's h
 At the same time, our analysis will achieve the human values of safety and system reliability, which are mutually reinforcing in the case of child malnutrition and child health. When child malnutrition is given more attention and improved, the health and safety of children will be ensured. When parents see business, organizations and government’s efforts to focus on children's health, their system reliability for society will rise. Likewise, when citizens see that marginalization is being addressed, they will have more hope for their lives.  
 The concern for children's health is a natural benefit of our analysis. This also answers the question “How might the system influence how people make and sustain friendships and family relationships?” in Time domain (Sustained friendships - envisioning cards, 2011). This website could strengthen family relationships by improving a child’s safety and health. But at the same time, this analysis has the potential to push mothers and even women into invective. As we all know, the majority of those responsible for caring for infants and children are still mothers or women. When the issue of child malnutrition is put under the public spotlight, those who are responsible for caring for children, mothers and women, are likely to be accused of being irresponsible.
 
+## Research Questions
+1. What is the current prevalence of children suffering from malnutrition?
+The preliminary work is to learn the number of undernourished children with each symptom in the current world. Based on this factual data, we would develop a basic understanding of child malnutrition. More importantly, those who are concerned about this issue could obtain quantitative evidence for their work.
+
+2. How much progress has been made in resolving child malnutrition in recent years?
+Next, we want to see how the number and proportion of child malnutrition have changed over the past two decades. The trend of the improvement in children’s nutritional levels could motivate people to reflect on the systemic reliability of relevant fields, such as the food supply market.
+
+3. How the extent of child malnutrition varies by country and by region?
+Furthermore, we intend to examine whether child malnutrition is disproportionately distributed worldwide. In particular, the relationship between the nutritional status of children in different regions and the local economic strength is worth exploring. Based on these results, policymakers in each country can formulate solutions.
+
 
 **TODO**: Edit this file. Your project proposal goes here.
 
