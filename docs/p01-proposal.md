@@ -43,6 +43,18 @@ Next, we want to see how the number and proportion of child malnutrition have ch
 3. How the extent of child malnutrition varies by country and by region?
 Furthermore, we intend to examine whether child malnutrition is disproportionately distributed worldwide. In particular, the relationship between the nutritional status of children in different regions and the local economic strength is worth exploring. Based on these results, policymakers in each country can formulate solutions.
 
+## The Dataset
+* Stunting - Prevalence   
+Stunting refers to children who are too short for his or her height. In this dataset, the percentage of children aged 0-59 months whose height-for-age was below minus two standard deviations from WHO child growth standards was recorded for 87 different countries and territories from 2000 to 2020.
+* Overweight - Prevalence  
+Overweight refers to children who are too heavy for his or her height. In this dataset, the percentage of children aged 0-59 months whose weight-for-height was higher than minus two standard deviations from WHO child growth standards was recorded for 87 different countries and territories from 2000 to 2020.
+* Wasting - Prevalence & Numbers  
+Wasting refers to children who are too thin for his or her height. In this dataset, the percentage of children aged 0-59 months whose weight-for-height was above minus three standard deviations from WHO child growth standards in 2020 was recorded for 87 different countries and territories.
+* Overall  
+These three aspects together make up the data on child malnutrition, and they all contain data over time and by country and region, allowing us to reach our research objective, which is to investigate the pattern of child malnutrition over geography and time. By comparing the data across different years, we can analyze our research question.
+
+
+
 
 **TODO**: Edit this file. Your project proposal goes here.
 
