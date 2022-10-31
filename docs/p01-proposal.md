@@ -59,6 +59,8 @@ These three aspects together make up the data on child malnutrition, and they al
 
 ### Summary of dataset
 <img width="519" alt="截屏2022-10-31 下午4 32 53" src="https://user-images.githubusercontent.com/114948331/199128801-f4b23c80-7b00-4efa-ba87-a24cd2457d46.png">
+URL:
+[Resourses of the dataset](https://data.unicef.org/topic/nutrition/malnutrition/)
 
 ### Relate to Research Questions
 Because all datasets cover prevalence trend indices, such a dataset helps us to study the prevalence of malnourished children in general. The dataset counts data for each country, which facilitates us to study how child malnutrition differs or affects each region. By comparing the trends of malnourished children across countries and regions, further analysis of the impact of household income could be reached.
