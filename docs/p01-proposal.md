@@ -54,6 +54,9 @@ Wasting refers to children who are too thin for his or her height. In this datas
 * Overall  
 These three aspects together make up the data on child malnutrition, and they all contain data over time and by country and region, allowing us to reach our research objective, which is to investigate the pattern of child malnutrition over geography and time. By comparing the data across different years, we can analyze our research question.
 
+### Summary of dataset
+<img width="519" alt="截屏2022-10-31 下午4 32 53" src="https://user-images.githubusercontent.com/114948331/199128801-f4b23c80-7b00-4efa-ba87-a24cd2457d46.png">
+
 
 
 
