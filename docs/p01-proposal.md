@@ -62,7 +62,7 @@ These three aspects together make up the data on child malnutrition, and they al
 ### Summary of dataset
 | Summary | Details |
 |---------|---------|
-| Data file name | 1. Stunting - Prevalence <br> 2. Overweight - Prevalence <br> 3. Wasting - Prevalence & Numbers
+| Data file name | 1. Stunting - Prevalence <br> 2. Overweight - Prevalence <br> 3. Wasting - Prevalence & Numbers <br> 4. Wasting - Detail
 | Purpose | Analyzing the geographic and temporal patterns of child malnutrition
 | Observations # (respectively) | 87, 87, 87, 990
 | Variables # (respectively) | 52, 52, 16, 1011
