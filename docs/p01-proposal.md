@@ -1,9 +1,9 @@
-# Data Analysis on Worldwide Child Malnutrition: Project Proposal 
+# Data Analysis on Worldwide Child Malnutrition: Project Proposal
 
-## Project title
+### Project title
 Data Analysis on Worldwide Child Malnutrition
 
-## Code name
+### Code name
 Starving kids
 
 ### Authors
@@ -12,7 +12,7 @@ Jingjing Dong jdong02@uw.edu
 Xinyue Sun xsun6@uw.edu  
 Erica Zhang qiyinz@uw.edu    
 
-## Affiliation
+### Affiliation
 INFO-201: Technical Foundations of Informatics - The Information School - University of Washington
 
 ### Date
@@ -25,7 +25,7 @@ Our main question is to investigate the pattern of child malnutrition over geogr
 Health, Malnutrition, Stunting, Children
 
 ## Introduction
-Concerned with child health issues, this project aims to analyze and visualize child malnutrition on the global scale in recent years. As UNICEF pointed out, “undernutrition puts children at greater risk of dying from common infections, increases the frequency and severity of such infections, and delays recovery” (Malnutrition in Children, 2022), good nutritional conditions are the foundation for children to thrive. However, the health status of children from minoritized groups is often out of the view of dominant groups. Therefore, revealing the changing process of child malnutrition around the world can arouse people’s awareness of this problem. In this project, we would use the survey estimates about child malnutrition provided by UNICEF to present the distributions of stunting, wasting, and overweight children under the age of five in different regions from 2000 to 2020. Through this data analysis and visualization, we hope to improve public understanding of child malnutrition and thus contribute to actions to address this problem.
+Concerned with child health issues, this project aims to analyze and visualize child malnutrition on the global scale in recent years. As UNICEF pointed out, “undernutrition puts children at greater risk of dying from common infections, increases the frequency and severity of such infections, and delays recovery” _(Malnutrition in Children, 2022)_, good nutritional conditions are the foundation for children to thrive. However, the health status of children from minoritized groups is often out of the view of dominant groups. Therefore, revealing the changing process of child malnutrition around the world can arouse people’s awareness of this problem. In this project, we would use the survey estimates about child malnutrition provided by UNICEF to present the distributions of stunting, wasting, and overweight children under the age of five in different regions from 2000 to 2020. Through this data analysis and visualization, we hope to improve public understanding of child malnutrition and thus contribute to actions to address this problem.
 
 ## Problem Domain
 Health issues, especially children's health, have always been a social issue that deserves to be discussed and focused on. For infants and young children, and for children under the age of three, malnutrition can be deadly. By 2020, nearly half of all under-five deaths could be attributed to malnutrition _(Malnutrition in Children, 2022)_. Malnutrition will increase the risk of children dying from other common infections _(Children: Improving survival and well-being, 2020)_. Fortunately, as civilization and the economy progressed, attention toward these issues were slowly and steadily raised. Unfortunately, compared to the total population, only a small percentage of people are concerned, and even fewer are taking action to improve. Although the prevalence of stunting has been declining since 2000, more than one in five children under the age of five were stunted in 2020, and 45.4 million of the 149.2 million children under the age of five are still suffering from wasting _(Malnutrition in Children, 2022)_. The analysis we have done shows how malnutrition in children is, and we also hope that more people will pay attention to it and end this tragedy.   
@@ -37,13 +37,13 @@ At the same time, our analysis will achieve the human values of safety and syste
 The concern for children's health is a natural benefit of our analysis. This also answers the question “How might the system influence how people make and sustain friendships and family relationships?” in Time domain _(Sustained friendships - envisioning cards, 2011)_. This website could strengthen family relationships by improving a child’s safety and health. But at the same time, this analysis has the potential to push mothers and even women into invective. As we all know, the majority of those responsible for caring for infants and children are still mothers or women. When the issue of child malnutrition is put under the public spotlight, those who are responsible for caring for children, mothers and women, are likely to be accused of being irresponsible.
 
 ## Research Questions
-1. What is the current prevalence of children suffering from malnutrition?
+1. What is the current prevalence of children suffering from malnutrition?  
 The preliminary work is to learn the number of undernourished children with each symptom in the current world. Based on this factual data, we would develop a basic understanding of child malnutrition. More importantly, those who are concerned about this issue could obtain quantitative evidence for their work.
 
-2. How much progress has been made in resolving child malnutrition in recent years?
+2. How much progress has been made in resolving child malnutrition in recent years?  
 Next, we want to see how the number and proportion of child malnutrition have changed over the past two decades. The trend of the improvement in children’s nutritional levels could motivate people to reflect on the systemic reliability of relevant fields, such as the food supply market.
 
-3. How the extent of child malnutrition varies by country and by region?
+3. How the extent of child malnutrition varies by country and by region?  
 Furthermore, we intend to examine whether child malnutrition is disproportionately distributed worldwide. In particular, the relationship between the nutritional status of children in different regions and the local economic strength is worth exploring. Based on these results, policymakers in each country can formulate solutions.
 
 ## The Dataset
@@ -82,12 +82,11 @@ The second limitation we are concerning is the lack of data for some regions. Wi
 We are very thankful for our friends that provided inspiration for us and helped us brainstorm. And we are also grateful to UNICEF for making the dataset and dedicating more attention to kids worldwide. 
 
 ## References 
-Malnutrition in Children. (2022, September 6). UNICEF DATA. https://data.unicef.org/topic/nutrition/malnutrition/  
-Query Data. UNICEF DATA. (2020, June 17). https://data.unicef.org/dv_index/  
-Shin, T. (2020, June 4). Real-life examples of discriminating artificial intelligence. https://towardsdatascience.com/real-life-examples-of-discriminating-artificial-intelligence-cae395a90070  
-World Health Organization. (n.d.). Children: Improving survival and well-being. World Health Organization. https://www.who.int/news-room/fact-sheets/detail/children-reducing-mortality  
-Sustained friendships - envisioning cards. envisioningcards. (2011). http://www.envisioningcards.com/envision_pdfs/Time-Sustained-Friendships.pdf  
+_Children: Improving survival and well-being_. (2020, September 9). World Health Organization. https://www.who.int/news-room/fact-sheets/detail/children-reducing-mortality  
+_Malnutrition in Children_. (2022, September 6). UNICEF DATA. https://data.unicef.org/topic/nutrition/malnutrition/  
+_Query Data_. (2020, June 17). UNICEF DATA. https://data.unicef.org/dv_index/  
+Shin, T. (2020, June 4). _Real-life examples of discriminating artificial intelligence_. https://towardsdatascience.com/real-life-examples-of-discriminating-artificial-intelligence-cae395a90070  
+_Sustained friendships - envisioning cards_. (2011). http://www.envisioningcards.com/envision_pdfs/Time-Sustained-Friendships.pdf  
 
 ## Appendix A: Questions
 We are wondering if our topic idea is solid enough and what suggestions you have for our final project?
-
