@@ -60,13 +60,12 @@ This dataset is about a more detailed trend for children whose weight-for-height
 These three aspects together make up the data on child malnutrition, and they all contain data over time and by country and region, allowing us to reach our research objective, which is to investigate the pattern of child malnutrition over geography and time. By comparing the data across different years, we can analyze our research question.
 
 ### Summary of dataset
-| Summary | Details |
-|---------|---------|
-| Data file name | 1. Stunting - Prevalence <br> 2. Overweight - Prevalence <br> 3. Wasting - Prevalence & Numbers <br> 4. Wasting - Detail
-| Purpose | Analyzing the geographic and temporal patterns of child malnutrition
-| Observations # (respectively) | 87, 87, 87, 990
-| Variables # (respectively) | 52, 52, 16, 1011
-| Citation | _Malnutrition in Children_. (2022, September 6). UNICEF DATA. https://data.unicef.org/topic/nutrition/malnutrition/
+| Data File Name | Purpose | Number of Observations | Number of Variables | Citation |
+|---------|---------|---------|---------|---------|
+| Stunting-Prevalence.csv | To provide information on child stunting from geographic and temporal views | 87 | 52 | _Malnutrition in Children_. (2022, September 6). UNICEF DATA. https://data.unicef.org/topic/nutrition/malnutrition/ |
+| Overweight-Prevalence.csv | To provide information on child overweight from geographic and temporal views | 87 | 52 | _Malnutrition in Children_. (2022, September 6). UNICEF DATA. https://data.unicef.org/topic/nutrition/malnutrition/ |
+| Wasting-Prevalence-Numbers.csv | To provide information on child wasting from geographic views | 87 | 16 | _Malnutrition in Children_. (2022, September 6). UNICEF DATA. https://data.unicef.org/topic/nutrition/malnutrition/ |
+| Wasting-Detail.csv | To provide detailed information on child wasting from geographic and temporal views | 990 | 1011 | _Malnutrition in Children_. (2022, September 6). UNICEF DATA. https://data.unicef.org/topic/nutrition/malnutrition/ |
 
 ### Relate to Research Questions
 Because all datasets cover prevalence trend indices, such a dataset helps us to study the prevalence of malnourished children in general. The dataset counts data for each country, which facilitates us to study how child malnutrition differs or affects each region. By comparing the trends of malnourished children across countries and regions, further analysis of the impact of household income could be reached.
