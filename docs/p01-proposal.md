@@ -54,6 +54,8 @@ Stunting refers to children who are too short for his or her height. In this dat
 Overweight refers to children who are too heavy for his or her height. In this dataset, the percentage of children aged 0-59 months whose weight-for-height was higher than minus two standard deviations from WHO child growth standards was recorded for 87 different countries and territories from 2000 to 2020.
 * Wasting - Prevalence & Numbers  
 Wasting refers to children who are too thin for his or her height. In this dataset, the percentage of children aged 0-59 months whose weight-for-height was above minus three standard deviations from WHO child growth standards in 2020 was recorded for 87 different countries and territories.
+* Wasting - Detail
+This dataset is about a more detailed trend for children whose wheight-for-height was above minus three standard deviations. This dataset could be used together with the Wasting - Prevalence & Numbers for better understanding the datasets.
 * Overall  
 These three aspects together make up the data on child malnutrition, and they all contain data over time and by country and region, allowing us to reach our research objective, which is to investigate the pattern of child malnutrition over geography and time. By comparing the data across different years, we can analyze our research question.
 
@@ -62,8 +64,8 @@ These three aspects together make up the data on child malnutrition, and they al
 |---------|---------|
 | Data file name | 1. Stunting - Prevalence <br> 2. Overweight - Prevalence <br> 3. Wasting - Prevalence & Numbers
 | Purpose | Analyzing the geographic and temporal patterns of child malnutrition
-| Observations # (respectively) | 87, 87, 87
-| Variables # (respectively) | 52, 52, 16
+| Observations # (respectively) | 87, 87, 87, 990
+| Variables # (respectively) | 52, 52, 16, 1011
 | Citation | _Malnutrition in Children_. (2022, September 6). UNICEF DATA. https://data.unicef.org/topic/nutrition/malnutrition/
 
 ### Relate to Research Questions
