@@ -16,3 +16,5 @@ overweight_prevalence1 <- overweight_prevalence %>%
   "2019 (overweight prevalence)" = X.57,
   "2020 (overweight prevalence)" = X.62) %>% 
   slice(4:17)
+
+  write.csv(overweight_prevalence1, "overweight_prevalence")
