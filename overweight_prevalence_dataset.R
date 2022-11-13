@@ -4,7 +4,8 @@ view(overweight_prevalence)
 overweight_prevalence1 <- overweight_prevalence %>%
   slice(13:15, 17, 89:102) %>%
   select(X, X.12, X.17, X.22, X.27, X.32, X.37, X.42, X.47, X.52, X.57, X.62) %>%
-  rename("2010 (overweight prevalence)" = X.12, 
+  rename( "Region" = X,
+  "2010 (overweight prevalence)" = X.12, 
   "2011 (overweight prevalence)" = X.17, 
   "2012 (overweight prevalence)" = X.22,
   "2013 (overweight prevalence)" = X.27, 
