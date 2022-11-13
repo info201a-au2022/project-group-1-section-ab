@@ -18,4 +18,4 @@ filtered_data <- rename(filtered_data, "2010 Stunting Prevalence (%)"= X.12,
 filtered_data <- select(filtered_data,starts_with("2"))
 filtered_data <- rename(filtered_data,"Region" = "2")
 
-write.csv(Stunting Prevalence,"/Users/AbbydeMacBook-Pro/Documents/info201/project-group-1-section-ab/Stunting Prevalence.csv",row.names=FALSE)
+write.csv(filtered_data,"/Users/abbysun/Documents/info201/project-group-1-section-ab/Stunting_Prevalence.csv",row.names=FALSE)
