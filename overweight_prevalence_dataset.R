@@ -8,7 +8,7 @@ overweight_prevalence1 <- overweight_prevalence %>%
   "2010_overweight_prevalence" = X.12, 
   "2011_overweight_prevalence" = X.17, 
   "2012_overweight_prevalence" = X.22,
-  "2013_overweight_prevalence)" = X.27, 
+  "2013_overweight_prevalence" = X.27, 
   "2014_overweight_prevalence" = X.32, 
   "2015_overweight_prevalence" = X.37,   
   "2016_overweight_prevalence" = X.42, 
