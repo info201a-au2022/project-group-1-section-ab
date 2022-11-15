@@ -56,5 +56,5 @@ wasting_data <- wasting_data %>%
 
 mulnutrition_data <- left_join(stunting_data, overweight_data) %>%
   left_join(wasting_data)
-mulnutrition_data[, 2:8] <- as.numeric(unlist(mulnutrition_data[, 2:8]))
+mulnutrition_data[, 2:8] <- round(as.numeric(unlist(mulnutrition_data[, 2:8])), 2)
 mulnutrition_data <- group_by(mulnutrition_data, region)
