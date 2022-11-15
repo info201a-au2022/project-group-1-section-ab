@@ -55,6 +55,8 @@ but the negative slope also shows a positive trend that there are fewer children
 
 #### Demonstration of plot three
 ```{r plot 3}
+stunting_plot
+overweight_plot
 wasting_plot
 ```
 
