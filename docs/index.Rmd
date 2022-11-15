@@ -1,54 +1,63 @@
 ---
 title: "Data Analysis on Worldwide Child Malnutrition"
 author: " "
-date: "1/22/2022"
+date: "11/14/2022"
 output: html_document
 ---
 
+
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+source("../source/aggregate_table.R")
+source("../source/chart1.R")
+source("../source/chart2.R")
+source("../source/chart3.R")
+knitr::opts_chunk$set(echo = FALSE)
 ```
 
-## What is this file for?
-
-* This file will eventually become your project report for **P02: Exploratory Data Analysis**. Specifically, you will write rmarkdown to report your exploratory data analysis.
-
-* Please see Canvas for more details.
-
-## ACCESSING THE /source DIRECTORY
-### Example 1: Source some code and run a function
-```{r}
-# Example 1: Note relative path, which can be read: Up one
-# directory(..), down into source (/source), and 
-# then "source" an R file (data_access.R)
-source("../source/data_access.R")
-data_access_test()
+```{r table}
+mulnutrition_data
 ```
 
-### Example 2: Initialize a variable and then use it
-```{r}
-# Example 1: This function was "sourced" above
-msg <- data_access_test(" Morgan!")
+#### Demonstation of plot one
+```{r plot 1}
+plot_1
 ```
+This bar plot directly shows the how three mulnutrition types distributed 
+in different WHO regions in 2020. The purpose of this plot is to demonstrate
+and compare the current prevalence of children suffering from malnutrition 
+over different regions which is one of our research questions. As shown in 
+the plot, six different regions are counted which are African Region, Region 
+of the Americas, South-East Asia Region, Eastern Mediterranean Region, Europe 
+Region, and Western Pacific Region. The three types of mulnutrition are overweight, 
+stunting, and wasting. The condition in each region is totally different. Except
+western pacific region, stunting children occupies the largest percentage of all 
+mulnutrition children in other regions for which the percentage of stunting children 
+reach the largest among all regions in African Region. In African Region and Region 
+of the Americas, the percengate of wasting children is the second large.
 
-> `r msg` Hope you have a good day!! 
-
-## ABOUT THIS FILE: 
-
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
-
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
-
-```{r cars}
-summary(cars)
+#### Demonstration of plot two
+```{r plot 2}
+chart
 ```
+This run chart shows number of millions of children affected by stunting and overweight globally from 2010 to 2020. 
+All children suffered from those two malnutrition symptoms are aged under five. 
+It is clearly reflected that many more children are affected by stunting over recent ten years. 
+The number of overweight children is between 35 to 40 million and is increasing slowly. 
+The number of stunting children had reached 180.5 million in year 2010, 
+but the negative slope also shows a positive trend that there are fewer children are stunting.
 
-## Including Plots
-
-You can also embed plots, for example:
-
-```{r pressure, echo=FALSE}
-plot(pressure)
+#### Demonstration of plot three
+```{r plot 3}
+wasting_plot
 ```
+These visualizations were designed to answer one of our research questions, 
+how does household income affect child malnutrition? Three pie charts are presented, 
+each corresponding to one specific malnutrition type: overweighting, stunting, 
+and wasting. These pie charts show the number of malnutrition kids by different income types. 
+For overweighting and stunting, the number displayed was the average count 
+of malnutrition kids from 2011 to 2020. For wasting, we are showing the malnutrition data for 2020 
+since we only have the dataset for that year. One significant insight is that 
+low-middle income always has the largest number across all types of malnutrition. 
+High income has the lowest number in both stunting and wasting, 
+whereas low income has the highest number in overweighting malnutrition.
 
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
