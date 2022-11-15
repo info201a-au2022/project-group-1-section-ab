@@ -5,7 +5,6 @@ date: "11/14/2022"
 output: html_document
 ---
 
-
 ```{r setup, include=FALSE}
 source("../source/aggregate_table.R")
 source("../source/chart1.R")
@@ -14,11 +13,13 @@ source("../source/chart3.R")
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
+#### Demonstration of table containing aggregate data
 ```{r table}
 mulnutrition_data
 ```
+This table contains general summary information about this data collection on malnourished children, including the regions we chose to analyze, income levels, the number and percentage of the three types of malnourished children, and the years in which these data were collected. The purpose of this table is not only to allow us to more clearly filter the data we need, but also to be able to more clearly present our data to our audience so they can better understand our project. The region we chose was the WHO region because we thought it would be more clearly divided and easier to analyze. We chose low-income, middle-income, lower-middle-income, upper-middle-income and high-income to facilitate our analysis of the impact of different incomes on child malnutrition.
 
-#### Demonstation of plot one
+#### Demonstration of plot one
 ```{r plot 1}
 plot_1
 ```
@@ -60,4 +61,5 @@ since we only have the dataset for that year. One significant insight is that
 low-middle income always has the largest number across all types of malnutrition. 
 High income has the lowest number in both stunting and wasting, 
 whereas low income has the highest number in overweighting malnutrition.
+
 
