@@ -52,12 +52,15 @@ of the Americas, the percengate of wasting children is the second large.
 chart
 ```
 
-This run chart shows number of millions of children affected by stunting and overweight globally from 2010 to 2020. 
+This run chart shows number of millions of children affected by stunting and overweight globally from 2010 to 2020.
 All children suffered from those two malnutrition symptoms are aged under five. 
 It is clearly reflected that many more children are affected by stunting over recent ten years. 
 The number of overweight children is between 35 to 40 million and is increasing slowly. 
 The number of stunting children had reached 180.5 million in year 2010, 
 but the negative slope also shows a positive trend that there are fewer children are stunting.
+This visualization only shows two symptoms of mulnutrition, 
+and the reason of excluding wasting is that we only have data of wasting in 2020. 
+Since wasting has not been concerned by the public until recent years, the information we can have is rare. More detailed information about wasting is shown in plot 1 and in aggregated table.   
 
 #### Demonstration of plot three
 ```{r plot 3}
