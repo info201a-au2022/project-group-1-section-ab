@@ -371,6 +371,19 @@ Malnutrition</h1>
 </div>
 
 
+<div id="overall-summarization" class="section level4">
+<h4>Overall Summarization</h4>
+<p>The project reports current relevant information on child
+malnutrition from 2010 to 2020. To have a more comprehensive analysis,
+we have 12 observations in total in exploring child malnutrition
+situations among different regions and how it can be affected by
+different household incomes. The 8 variables we have for the report are
+prevalence and number of three different types of malnutrition along
+with the influential factor region and year. South-East Asia has the
+highest prevalence of stunting, 41.6%. Europe has the highest prevalence
+of overweight, and the number is 9.8%. South-East Asia also has the
+highest prevalence of wasting, which is 14.5%.</p>
+</div>
 <div id="demonstration-of-table-containing-aggregate-data" class="section level4">
 <h4>Demonstration of table containing aggregate data</h4>
 <pre><code>## # A tibble: 132 × 8
@@ -390,18 +403,21 @@ Malnutrition</h1>
 ## # … with 122 more rows, and 3 more variables:
 ## #   overweight_prevalence_percentage &lt;dbl&gt;, wasting_number_millions &lt;dbl&gt;,
 ## #   wasting_prevalence_percentage &lt;dbl&gt;</code></pre>
-<p>This table contains general summary information about this data
-collection on malnourished children, including the regions we chose to
-analyze, income levels, the number and percentage of the three types of
-malnourished children, and the years in which these data were collected.
-The purpose of this table is not only to allow us to more clearly filter
-the data we need, but also to be able to more clearly present our data
-to our audience so they can better understand our project. The region we
-chose was the WHO region because we thought it would be more clearly
-divided and easier to analyze. We chose low-income, middle-income,
-lower-middle-income, upper-middle-income and high-income to facilitate
-our analysis of the impact of different incomes on child
-malnutrition.</p>
+<p>This table contains all data on child malnutrition from 2010 to 2020
+across various regions provided by UNICEF. Since we want to explore the
+pattern of child malnutrition, we can access concrete population and
+prevalence of malnourished kids from this aggregate data. The purpose of
+this table is not only to allow us to conveniently filter the data for
+further analysis, but also to enable our audience to understand the
+scope of this project. In detail, this table reveals annual numbers and
+percentages of child stunting, overweight, and wasting in each region.
+We can roughly learn the trend and distribution of child malnutrition
+from this table. It is noticed that data on child wasting were missing
+in earlier years. Using <code>group_by</code> on the feature
+<code>region</code>, it can be found that there are 12 dimensions, in
+which one for global, six for WHO regions, and five for World Bank
+income groups. These dimensions facilitate our analysis on child
+malnutrition by region and by income.</p>
 </div>
 <div id="demonstration-of-plot-one" class="section level4">
 <h4>Demonstration of plot one</h4>
