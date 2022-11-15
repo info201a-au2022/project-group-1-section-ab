@@ -7,12 +7,18 @@ output: html_document
 
 ```{r setup, include=FALSE}
 source("../source/aggregate_table.R")
+source("../source/summary_info.R")
 source("../source/chart1.R")
 source("../source/chart2.R")
 source("../source/chart3.R")
 knitr::opts_chunk$set(echo = FALSE)
 ```
+
 #### Overall Summarization
+```{r summary}
+summary_info
+```
+
 The project reports current relevant information on child malnutrition from 2010 to 2020. To have a more comprehensive analysis, we have 12 observations in total in exploring child malnutrition situations among different regions and how it can be affected by different household incomes. The 8 variables we have for the report are prevalence and number of three different types of malnutrition along with the influential factor region and year. South-East Asia has the highest prevalence of stunting, 41.6%. Europe has the highest prevalence of overweight, and the number is 9.8%. South-East Asia also has the highest prevalence of wasting, which is 14.5%.
 
 
