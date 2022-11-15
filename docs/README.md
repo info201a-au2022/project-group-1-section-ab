@@ -8,7 +8,7 @@ as follows:
 |Report | Brief Description|
 |---------------| -----------------|
 |[Project Proposal](./p01-proposal.md) | An introduction to our problem domain, research questions, dataset, expected implications, and limitations.
-|[Exploratory Data Analysis](./xxx) | A brief description of your exploratory data analyis report
+|[Exploratory Data Analysis](./index.html) | An exploratory report of computed summary information, an aggregate table of relevant data, and three charts answering the research questions.
 |[Interactive Vizualizaiton](./xxx) | A brief description of your final report. 
 
 
