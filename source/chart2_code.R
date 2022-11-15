@@ -1,4 +1,4 @@
-source("../source/mulnutrition_data_aggregate.R")
+source("../source/aggregate_table.R")
 install.packages("ggplot2")
 install.packages("tidyverse")
 library("tidyverse")
