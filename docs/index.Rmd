@@ -1,6 +1,6 @@
 ---
 title: "Data Analysis on Worldwide Child Malnutrition"
-author: " "
+author: "Jing Cao, Jingjing Dong, Xinyue Sun, Erica Zhang"
 date: "11/14/2022"
 output: html_document
 ---
