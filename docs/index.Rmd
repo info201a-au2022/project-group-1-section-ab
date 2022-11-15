@@ -17,7 +17,7 @@ knitr::opts_chunk$set(echo = FALSE)
 ```{r table}
 mulnutrition_data
 ```
-This table contains general summary information about this data collection on malnourished children, including the regions we chose to analyze, income levels, the number and percentage of the three types of malnourished children, and the years in which these data were collected. The purpose of this table is not only to allow us to more clearly filter the data we need, but also to be able to more clearly present our data to our audience so they can better understand our project. The region we chose was the WHO region because we thought it would be more clearly divided and easier to analyze. We chose low-income, middle-income, lower-middle-income, upper-middle-income and high-income to facilitate our analysis of the impact of different incomes on child malnutrition.
+This table contains all data on child malnutrition from 2010 to 2020 across various regions provided by UNICEF. Since we want to explore the pattern of child malnutrition, we can access concrete population and prevalence of malnourished kids from this aggregate data. The purpose of this table is not only to allow us to conveniently filter the data for further analysis, but also to enable our audience to understand the scope of this project. In detail, this table reveals annual numbers and percentages of child stunting, overweight, and wasting in each region. We can roughly learn the trend and distribution of child malnutrition from this table. It is noticed that data on child wasting were missing in earlier years. Using `group_by` on the feature `region`, it can be found that there are 12 dimensions, in which one for global, six for WHO regions, and five for World Bank income groups. These dimensions facilitate our analysis on child malnutrition by region and by income.
 
 #### Demonstration of plot one
 ```{r plot 1}
@@ -61,5 +61,3 @@ since we only have the dataset for that year. One significant insight is that
 low-middle income always has the largest number across all types of malnutrition. 
 High income has the lowest number in both stunting and wasting, 
 whereas low income has the highest number in overweighting malnutrition.
-
-
