@@ -4,7 +4,18 @@ library("tidyr")
 library("ggplot2")
 library("scales")
 
-source("../source/mulnutrition_data_aggregate.R")
+source("../source/aggregate_table.R")
+
+mulnutrition_by_region <- mulnutrition_data %>%
+  group_by(region) %>%
+  summarize(
+    stunting_number_millions_avg = round(mean(stunting_number_millions, na.rm = TRUE), 2),
+    stunting_prevalence_percentage_avg = round(mean(stunting_prevalence_percentage, na.rm = TRUE), 2),
+    overweight_number_millions_avg = round(mean(overweight_number_millions, na.rm = TRUE), 2),
+    overweight_prevalence_percentage_avg = round(mean(overweight_prevalence_percentage, na.rm = TRUE), 2),
+    wasting_number_millions_avg = round(mean(wasting_number_millions, na.rm = TRUE), 2),
+    wasting_prevalence_percentage_avg = round(mean(wasting_prevalence_percentage, na.rm = TRUE), 2)
+  )
 
 mulnutrition_by_income <- mulnutrition_by_region %>% 
   filter(str_detect(region, regex('income', ignore_case = T))) %>% 
