@@ -4,7 +4,7 @@ library("tidyr")
 library("ggplot2")
 library("scales")
 
-source("../info201/mulnutrition_data_cleaning-copy.R")
+source("../source/mulnutrition_data_aggregate.R")
 
 mulnutrition_by_income <- mulnutrition_by_region %>% 
   filter(str_detect(region, regex('income', ignore_case = T))) %>% 
