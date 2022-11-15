@@ -20,12 +20,14 @@ The project reports current relevant information on child malnutrition from 2010
 ```{r table}
 mulnutrition_data
 ```
+
 This table contains all data on child malnutrition from 2010 to 2020 across various regions provided by UNICEF. Since we want to explore the pattern of child malnutrition, we can access concrete population and prevalence of malnourished kids from this aggregate data. The purpose of this table is not only to allow us to conveniently filter the data for further analysis, but also to enable our audience to understand the scope of this project. In detail, this table reveals annual numbers and percentages of child stunting, overweight, and wasting in each region. We can roughly learn the trend and distribution of child malnutrition from this table. It is noticed that data on child wasting were missing in earlier years. Using `group_by` on the feature `region`, it can be found that there are 12 dimensions, in which one for global, six for WHO regions, and five for World Bank income groups. These dimensions facilitate our analysis on child malnutrition by region and by income.
 
 #### Demonstration of plot one
 ```{r plot 1}
 plot_1
 ```
+
 This bar plot directly shows the how three mulnutrition types distributed 
 in different WHO regions in 2020. The purpose of this plot is to demonstrate
 and compare the current prevalence of children suffering from malnutrition 
@@ -43,6 +45,7 @@ of the Americas, the percengate of wasting children is the second large.
 ```{r plot 2}
 chart
 ```
+
 This run chart shows number of millions of children affected by stunting and overweight globally from 2010 to 2020. 
 All children suffered from those two malnutrition symptoms are aged under five. 
 It is clearly reflected that many more children are affected by stunting over recent ten years. 
@@ -54,6 +57,7 @@ but the negative slope also shows a positive trend that there are fewer children
 ```{r plot 3}
 wasting_plot
 ```
+
 These visualizations were designed to answer one of our research questions, 
 how does household income affect child malnutrition? Three pie charts are presented, 
 each corresponding to one specific malnutrition type: overweighting, stunting, 
