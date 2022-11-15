@@ -48,7 +48,7 @@ wasting_plot
 # of malnutrition kids from 2011 to 2020. For wasting, we are showing the malnutrition data for 2020 
 # since we only have the dataset for that year. One significant insight is that 
 # low-middle income always has the largest number across all types of malnutrition. 
-#High income has the lowest number in both stunting and wasting, 
+# High income has the lowest number in both stunting and wasting, 
 # whereas low income has the highest number in overweighting malnutrition.
 
 
