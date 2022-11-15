@@ -5,7 +5,9 @@ In our project, we use the following data files:
 ## Data files
 |Data File Name | Brief Description|
 |---------------| -----------------|
-|[Stunting-Prevalence.csv](./Stunting-Prevalence.csv) | This file contains data on the prevalence of child stunting.
-|[Overweight-Prevalence.csv](./Overweight-Prevalence.csv) | This file contains data on the prevalence of child overweight.
-|[Wasting-Prevalence-Numbers.csv](./Wasting-Prevalence&Numbers.csv) | This file contains data on the prevalence and numbers of child wasting.
-|[Wasting-Detail.csv](./Wasting-Detail.csv) | This file contains data on child wasting in detail.
+|[overweight_number.csv](./overweight_number.csv) | This file contains data on the number of child overweight.
+|[overweight_prevalence.csv](./overweight_prevalence.csv) | This file contains data on the prevalence of child overweight.
+|[stunting_number.csv](./stunting_number.csv) | This file contains data on the number of child stunting.
+|[stunting_prevalence.csv](./stunting_prevalence.csv) | This file contains data on the prevalence of child stunting.
+|[wasting_detail.csv](./wasting_detail.csv) | This file contains data on child wasting in detail.
+|[wasting_number_prevalence.csv](./wasting_number_prevalence.csv) | This file contains data on the number and prevalence of child wasting.
