@@ -6,7 +6,7 @@ library("scales")
 
 source("../source/aggregate_table.R")
 
-mulnutrition_by_region <- mulnutrition_data %>%
+malnutrition_by_region <- malnutrition_data %>%
   group_by(region) %>%
   summarize(
     stunting_number_millions_avg = round(mean(stunting_number_millions, na.rm = TRUE), 2),
@@ -17,7 +17,7 @@ mulnutrition_by_region <- mulnutrition_data %>%
     wasting_prevalence_percentage_avg = round(mean(wasting_prevalence_percentage, na.rm = TRUE), 2)
   )
 
-mulnutrition_by_income <- mulnutrition_by_region %>% 
+malnutrition_by_income <- malnutrition_by_region %>% 
   filter(str_detect(region, regex('income', ignore_case = T))) %>% 
   rename(income = region) %>% 
   slice(2, 3, 5, 1)
@@ -32,20 +32,20 @@ blank_theme <- theme_bw() + theme(
   panel.border = element_blank()
 )
 
-stunting_plot <- ggplot(data = mulnutrition_by_income) +
+stunting_plot <- ggplot(data = malnutrition_by_income) +
   geom_col(mapping = aes(x = "", y = stunting_number_millions_avg, fill = income)) +
   coord_polar("y") + scale_fill_brewer() + blank_theme + 
   labs(title = "How Different Income Affects Stunting") 
 stunting_plot
 
 
-overweight_plot <- ggplot(data = mulnutrition_by_income) +
+overweight_plot <- ggplot(data = malnutrition_by_income) +
   geom_col(mapping = aes(x = "", y = overweight_number_millions_avg, fill = income)) +
   coord_polar("y") + scale_fill_brewer() + blank_theme + 
   labs(title = "How Different Income Affects Overweight") 
 overweight_plot
 
-wasting_plot <- ggplot(data = mulnutrition_by_income) +
+wasting_plot <- ggplot(data = malnutrition_by_income) +
   geom_col(mapping = aes(x = "", y = wasting_number_millions_avg, fill = income)) +
   coord_polar("y") + scale_fill_brewer() + blank_theme + 
   labs(title = "How Different Income Affects Wasting") 
