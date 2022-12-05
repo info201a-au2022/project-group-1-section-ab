@@ -6,7 +6,7 @@ library("ggplot2")
 source("../source/aggregate_table.R")
 
 
-first_plot <- mulnutrition_data[c(122:127) ,c(1, 2, 4, 6, 8)]
+first_plot <- malnutrition_data[c(122:127) ,c(1, 2, 4, 6, 8)]
 region <- c(rep("African Region", 3),  
             rep("Region of the Americas", 3), 
             rep("South-East Asia Region", 3),
@@ -30,16 +30,16 @@ plot_1 <- ggplot(first_data, aes(fill = type, x = region, y = percentage)) +
 plot_1
 
 
-# This bar plot directly shows the how three mulnutrition types distributed 
+# This bar plot directly shows the how three malnutrition types distributed 
 # in different WHO regions in 2020. The purpose of this plot is to demonstrate
 # and compare the current prevalence of children suffering from malnutrition 
 # over different regions which is one of our research questions. As shown in 
 # the plot, six different regions are counted which are African Region, Region 
 # of the Americas, South-East Asia Region, Eastern Mediterranean Region, Europe 
-# Region, and Western Pacific Region. The three types of mulnutrition are overweight, 
+# Region, and Western Pacific Region. The three types of malnutrition are overweight, 
 # stunting, and wasting. The condition in each region is totally different. Except
 # western pacific region, stunting children occupies the largest percentage of all 
-# mulnutrition children in other regions for which the percentage of stunting children 
+# malnutrition children in other regions for which the percentage of stunting children 
 # reach the largest among all regions in African Region. In African Region and Region 
 # of the Americas, the percengate of wasting children is the second large. 
 
