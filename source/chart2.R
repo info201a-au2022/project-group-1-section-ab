@@ -3,7 +3,7 @@ library("tidyverse")
 
 source("../source/aggregate_table.R")
 
-chart_data <- mulnutrition_data %>%
+chart_data <- malnutrition_data %>%
   filter(region == "Global") %>%
   select(year, stunting_number_millions, overweight_number_millions, wasting_number_millions)
 
@@ -18,7 +18,7 @@ chart <- ggplot(chart_data, aes(x = year)) +
     x = "Year",
     y = "Number of Affected (millions)",
     title = "Number of Children Affected by Stunting and Overweight from 2010 to 2020",
-    subtitle = "Data from organized Global Mulnutrition data frame",
+    subtitle = "Data from organized Global Malnutrition data frame",
     caption = "Final Project of INFO-201 (Autumn, 2022).",
     alt = "Number of Children Affected by Stunting and Overweight from 2010 to 2020",
     color = "Legend"
