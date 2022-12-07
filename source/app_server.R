@@ -5,6 +5,9 @@ library("ggplot2")
 library("plotly")
 
 source("aggregate_table.R")
+source("chart1.R")
+source("chart2.R")
+source("chart3.R")
 
 malnutrition_data$region[malnutrition_data$region ==
   "African Region"] <- "Africa"
@@ -136,4 +139,12 @@ server <- function(input, output, session) {
       layout(paper_bgcolor='transparent')
     return(pie_chart)
   })
+  
+  output$plot_1 <- renderPlot(plot_1,width = "70%")
+  
+
+  #output$plot_2 <- chart
+  #output$plot_3_1 <- stunting_plot
+  #output$plot_3_2 <- overweight_plot
+  #output$plot_3_3 <- wasting_plot
 }

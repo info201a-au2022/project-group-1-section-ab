@@ -208,7 +208,12 @@ interactive_page_three <- tabPanel(
 ##### Summary Takeaways
 
 summary_takeaways <- tabPanel(
-  "Summary Takeaways"
+  "Summary Takeaways",
+  h1("Summary Takeaways", style = " font-size: 43px ; font-family: 'times'; font-si16pt"),
+  br(),
+  h2(strong("Stunted Kids over Regions"), style = "font-family: 'times'; font-si16pt"),
+  plotOutput(outputID = "plot_1",width ="70%"),
+  p("we can see that ")
 )
 
 ##### Report
