@@ -5,9 +5,9 @@ account: ericazqy
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 7822058
-bundleId: 6601869
+bundleId: 6602858
 url: https://ericazqy.shinyapps.io/source/
-when: 1670375518.92762
-lastSyncTime: 1670375518.92768
+when: 1670390745.37665
+lastSyncTime: 1670390745.37666
 asMultiple: FALSE
 asStatic: FALSE
