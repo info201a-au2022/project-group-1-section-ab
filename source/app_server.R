@@ -37,21 +37,25 @@ server <- function(input, output, session) {
         text = ~region, locations = ~Code,
         marker = list(line = list(color = toRGB("grey"), width = 0.5))
       ) %>%
+      layout(plot_bgcolor='transparent') %>% 
+      layout(paper_bgcolor='transparent') %>% 
       layout(
         geo = list(
           showframe = FALSE,
           showcoastlines = FALSE,
           projection = list(type = "Mercator")
-        )
+        ) 
       )
     if (input$map_count == "_prevalence_percentage") {
       map <- map %>%
         colorbar(title = "Percentage") %>%
+        layout(plot_bgcolor='transparent') %>% 
+        layout(paper_bgcolor='transparent') %>% 
         layout(
           title = paste0(
             "Percentage of children under 5 affected by ",
             input$map_symptom, " (", input$map_year, ")"
-          )
+          ) 
         )
       if (input$map_symptom == "stunting") {
         map <- map %>% colorbar(limits = c(0, 42))
@@ -62,12 +66,12 @@ server <- function(input, output, session) {
       }
     } else {
       map <- map %>%
-        colorbar(title = "Number<br>(millions)") %>%
+        colorbar(title = "Number<br>(millions)") %>% 
         layout(
           title = paste0(
             "Number (millions) of children under 5 affected by ",
             input$map_symptom, " (", input$map_year, ")"
-          )
+          ) 
         )
       if (input$map_symptom == "stunting") {
         map <- map %>% colorbar(limits = c(0, 76))
@@ -76,7 +80,7 @@ server <- function(input, output, session) {
       } else if (input$map_symptom == "wasting") {
         map <- map %>% colorbar(limits = c(0, 25))
       }
-    }
+    } 
     return(map)
   })
 
@@ -88,8 +92,7 @@ server <- function(input, output, session) {
       aes(x = year, y = get(line_var), ymin = 0, color = region) +
       geom_line() +
       labs(x = "Year") +
-      scale_x_continuous(breaks = seq(2010, 2020, 1)) +
-      scale_color_discrete(name = "Region")
+      scale_x_continuous(breaks = seq(2010, 2020, 1)) + theme_bw() + theme(rect = element_rect(fill = "transparent")) 
     if (input$line_count == "_prevalence_percentage") {
       line_chart <- line_chart +
         labs(
@@ -108,9 +111,10 @@ server <- function(input, output, session) {
           ),
           y = "Number (millions)"
         )
-    }
+    } 
     return(line_chart)
   })
+  
 
   output$pie_chart <- renderPlotly({
     pie_data <- malnutrition_data %>%
@@ -118,6 +122,7 @@ server <- function(input, output, session) {
       filter(str_detect(region, regex("income")))
     pie_var <- paste0(input$pie_symptom, "_number_millions")
     pie_chart <- plot_ly(
+      marker = list(colors = c('#ececec', '#bad7ff', '#96b4dd', '#708db4')),
       data = pie_data, type = "pie",
       labels = ~region,
       values = ~ get(pie_var),
@@ -126,7 +131,9 @@ server <- function(input, output, session) {
       layout(title = paste0(
         "Share of children under 5 affected by ",
         input$pie_symptom, " (", input$pie_year, ")"
-      ))
+      )) %>% 
+      layout(plot_bgcolor='transparent') %>% 
+      layout(paper_bgcolor='transparent')
     return(pie_chart)
   })
 }
