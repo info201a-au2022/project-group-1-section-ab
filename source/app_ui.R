@@ -6,7 +6,7 @@ library("shinythemes")
 
 intro_page <- tabPanel(
   "Introduction",
-  h1("Data Analysis on Worldwide Child Malnutrition", style = " font-size: 43px ; font-family: 'times'; font-si16pt"),
+  h1("Data Analysis on Worldwide Child Malnutrition", style = " font-size: 40px ; font-family: 'times'; font-si16pt"),
   br(),
   img("", src = "https://www.compassion.com/Images/child-malnutrition_162716_1280x553.jpg", style = "display: block; margin-left: auto; margin-right: auto;", width = "95%"),
   br(),
