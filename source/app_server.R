@@ -140,11 +140,9 @@ server <- function(input, output, session) {
     return(pie_chart)
   })
   
-  output$plot_1 <- renderPlot(plot_1,width = "70%")
-  
-
-  #output$plot_2 <- chart
-  #output$plot_3_1 <- stunting_plot
-  #output$plot_3_2 <- overweight_plot
-  #output$plot_3_3 <- wasting_plot
+  output$plot_1 <- renderPlotly(plot_1)
+  output$plot_2 <- renderPlotly(chart)
+  output$plot_st <- renderPlot(stunting_plot)
+  output$plot_ov <- renderPlot(overweight_plot)
+  output$plot_wa <- renderPlot(wasting_plot)
 }

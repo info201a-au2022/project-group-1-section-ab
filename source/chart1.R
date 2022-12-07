@@ -25,7 +25,7 @@ percentage <- c(31.7, 4.2, 5.8,
 first_data <- data.frame(region, type, percentage)
 
 plot_1 <- ggplot(first_data, aes(fill = type, x = region, y = percentage)) + 
-  geom_bar(stat = "identity", position = "dodge") + labs(title = "Overweight Prevalence Over Regions") + 
+  geom_bar(stat = "identity", position = "dodge") + labs(title = "Malnutrition Prevalence Over Regions") + 
   theme(axis.text.x = element_text(angle = 45, hjust=1))
 plot_1
 

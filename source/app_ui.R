@@ -212,8 +212,34 @@ summary_takeaways <- tabPanel(
   h1("Summary Takeaways", style = " font-size: 43px ; font-family: 'times'; font-si16pt"),
   br(),
   h2(strong("Stunted Kids over Regions"), style = "font-family: 'times'; font-si16pt"),
-  plotOutput(outputID = "plot_1",width ="70%"),
-  p("we can see that ")
+  p("We can see that there are children in every region who are experiencing different symptoms of malnutrition. 
+    One of the most worrisome is the problem of stunting, and most of the stunted children are from the African region, 
+    which confirms the fact that most of the children we found in our Google image search of stunted children 
+    are of African descent. This is a phenomenon that deserves the attention of the world 
+    to help the children who are suffering in specific regions."),
+  plotlyOutput("plot_1",width ="90%"),
+  hr(style = "border-top: 1px solid #000000;"),
+  #br(),
+  h2(strong("Global Trends"), style = "font-family: 'times'; font-si16pt"),
+  p("Here we have good news and news."),  
+  p("Good: Numbers of stunted children are steadily decreasing over the last 10 years."),  
+  p("Bad: In this planet, more and more lovely kids are suffering from malnutrition specifically overweight."),  
+  p("Understanding the trend of number affected warms us how urgent it is to take actions and save those children.
+     The increasing number also motivates all of us to find out which region need more help and what factor contributes to this tragedy.  
+     We did a good job in some extent, but that is not enough."),
+  plotlyOutput("plot_2",width = "92%"),
+  hr(style = "border-top: 1px solid #000000;"),
+  #br(),
+  h2(strong("Determinent - Household Income"), style = "font-family: 'times'; font-si16pt"),
+  p("Our last takeaway is that children in lower-middle income family need more help. The majority of malnourished kids are from
+    family with lower-middle income. This finding provides policymakers a specific group that needs to be helped. This also critically reflects
+    that the group we will concern more is not the low income group which we normally think. It may be one of the reasons why we see
+    lower-middle and upper-middle income family have more portions. The truth is not as simply as we thought and so does helping kids. 
+    We have a long but meaningful way to go."),
+  plotOutput("plot_st",width = "90%"),
+  plotOutput("plot_ov",width = "90%"),
+  plotOutput("plot_wa",width = "90%"),
+  br()
 )
 
 ##### Report
