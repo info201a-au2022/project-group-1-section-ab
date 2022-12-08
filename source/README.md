@@ -9,6 +9,10 @@ these sub-directories (TODO: Update/Delete)
 |[app.R](./app.R) | The R code for shiny app. 
 |[app_server.R](./app_server.R) | The R code for shiny app server. 
 |[app_ui.R](./app_ui.R) | The R code for shiny app UI. 
+|[chart1.R](./chart1.R) | The R code for plotting the first bar chart for the specific analyzing.
+|[chart2.R](./chart2.R) | The R code for plotting the second line chart for the specific analyzing.
+|[chart3.R](./chart3.R) | The R code for plotting the third pie chart for the specific analyzing.
+
 
 
 
