@@ -23,7 +23,8 @@ chart <- ggplot(chart_data, aes(x = year)) +
     alt = "Number of Children Affected by Stunting and Overweight from 2010 to 2020",
     color = "Legend"
   ) +
-  scale_color_manual(values = colors)
+  scale_color_manual(values = colors) + theme_bw() +
+  theme(rect = element_rect(fill = "transparent"))
 chart
 
 # This run chart shows number of millions of children affected by stunting and overweight globally from 2010 to 2020.

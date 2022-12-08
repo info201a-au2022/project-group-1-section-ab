@@ -145,9 +145,9 @@ server <- function(input, output, session) {
 
   output$plot_1 <- renderPlotly(plot_1)
   output$plot_2 <- renderPlotly(chart)
-  output$plot_st <- renderPlot(stunting_plot)
-  output$plot_ov <- renderPlot(overweight_plot)
-  output$plot_wa <- renderPlot(wasting_plot)
+  output$plot_st <- renderPlot(stunting_plot, bg="transparent")
+  output$plot_ov <- renderPlot(overweight_plot, bg="transparent")
+  output$plot_wa <- renderPlot(wasting_plot, bg="transparent")
 
   output$dataset_info <- renderTable(dataset_info)
 }

@@ -26,7 +26,8 @@ first_data <- data.frame(region, type, percentage)
 
 plot_1 <- ggplot(first_data, aes(fill = type, x = region, y = percentage)) + 
   geom_bar(stat = "identity", position = "dodge") + labs(title = "Malnutrition Prevalence Over Regions") + 
-  theme(axis.text.x = element_text(angle = 45, hjust=1))
+  theme(axis.text.x = element_text(angle = 45, hjust=1)) + theme_bw() +
+  theme(rect = element_rect(fill = "transparent"))
 plot_1
 
 
