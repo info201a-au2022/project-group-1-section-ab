@@ -9,7 +9,7 @@ as follows:
 |---------------| -----------------|
 |[Project Proposal](./p01-proposal.md) | An introduction to our problem domain, research questions, dataset, expected implications, and limitations.
 |[Exploratory Data Analysis](./index.html) | An exploratory report presenting summary information of the data, an aggregate table of relevant data, and three charts to answer research questions.
-|[Interactive Vizualizaiton](./rsconnect/shinyapps.io/ericazqy) | A brief description of your final report. 
+|[Interactive Vizualizaiton](./) | A brief description of your final report. 
 
 
 ## DEVELOPER Note 0
