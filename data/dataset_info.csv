@@ -1,0 +1,8 @@
+﻿Data File Name,Purpose,Number of Observations,Number of Variables,Citation
+stunting_prevalence.csv,To provide the prevalence of child stunting with geographic and temporal information,122,123,"Malnutrition in Children. (2022, September 6). UNICEF DATA. https://data.unicef.org/topic/nutrition/malnutrition/"
+stunting_number.csv,To provide the number of child stunting with geographic and temporal information,123,126,"Malnutrition in Children. (2022, September 6). UNICEF DATA. https://data.unicef.org/topic/nutrition/malnutrition/"
+overweight_prevalence.csv,To provide the prevalence of child overweight with geographic and temporal information,123,126,"Malnutrition in Children. (2022, September 6). UNICEF DATA. https://data.unicef.org/topic/nutrition/malnutrition/"
+overweight_number.csv,To provide the number of child overweight with geographic and temporal information,116,126,"Malnutrition in Children. (2022, September 6). UNICEF DATA. https://data.unicef.org/topic/nutrition/malnutrition/"
+wasting_number_prevalence.csv,To provide the number and prevalence of child wasting with geographic information,142,21,"Malnutrition in Children. (2022, September 6). UNICEF DATA. https://data.unicef.org/topic/nutrition/malnutrition/"
+wasting_detail.csv,To provide detailed information on child wasting,998,803,"Malnutrition in Children. (2022, September 7). UNICEF DATA. https://data.unicef.org/topic/nutrition/malnutrition/"
+who_regions.csv,To provide country codes and WHO region classification by entity,194,4,WHO regions. (2020). Our World in Data. https://ourworldindata.org/grapher/who-regions
