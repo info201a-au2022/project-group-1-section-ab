@@ -11,5 +11,5 @@ In our project, we use the following data files:
 |[stunting_prevalence.csv](./stunting_prevalence.csv) | This file contains data on the prevalence of child stunting.
 |[wasting_detail.csv](./wasting_detail.csv) | This file contains data on child wasting in detail.
 |[wasting_number_prevalence.csv](./wasting_number_prevalence.csv) | This file contains data on the number and prevalence of child wasting.
-|[WHO_region.csv](./WHO_region.csv) | This file contains data on how regions are defined by WHO.
+|[who_regions.csv](./who_regions.csv) | This file contains data on how regions are defined by WHO.
 
