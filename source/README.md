@@ -7,6 +7,8 @@ these sub-directories (TODO: Update/Delete)
 |---------------| -----------------|
 |[aggregate_table.R](./aggregate_table.R) | The R code for combining data and calculating the aggregate table. 
 |[app.R](./app.R) | The R code for shiny app. 
+|[app_server.R](./app_server.R) | The R code for shiny app server. 
+
 
 
 # DEVELOPER NOTE 1: About ... 
