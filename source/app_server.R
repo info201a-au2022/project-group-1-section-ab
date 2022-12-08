@@ -27,7 +27,7 @@ malnutrition_data_entity <- who_data %>%
   rename(region = WHO.region) %>%
   left_join(malnutrition_data, by = "region")
 
-dataset_info <- read.csv("dataset_info.csv")
+dataset_info <- read.csv("../data/dataset_info.csv")
 
 server <- function(input, output, session) {
   output$map <- renderPlotly({
