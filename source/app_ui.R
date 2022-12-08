@@ -457,6 +457,47 @@ report <- tabPanel(
     style = "font-family: 'times'; font-si16pt ; font-size:22px;"
   ),
   br(),
+  h2(strong("Findings"), style = "font-family: 'times'; font-si16pt"),
+  hr(style = "border-top: 1px solid #000000;"),
+  p("There are several global prevalence patterns for various child malnutrition symptoms. To begin 
+    with, Africa, the Eastern Mediterranean, and South-East Asia have much greater rates of child 
+    stunting than other regions, as indicated by the deeper colors on the interactive map. In 
+    comparison, children in the Americas, Europe, the Eastern Mediterranean, and the Western 
+    Pacific are more likely to be overweight. In particular, both Eastern Mediterranean countries 
+    have a significant prevalence of symptoms in malnourished children, which merits additional 
+    consideration. We do not have enough data to evaluate for waste, however based on the available 
+    data, South-East Asia has a greater dispersion. As a result, the prevalence trend of child 
+    malnutrition varies greatly from region to region. ",
+    style = "font-family: 'times'; font-si16pt ; font-size:22px;"
+  ),
+  p("Since the prevalence of child malnutrition is very different in each region, the next component 
+  we investigate is whether individuals are aware of child malnutrition and if they have taken action 
+  to ameliorate this aspect. Since the database only has data for 2020 wasting, we explored the trends 
+  of two other symptoms, using line charts to compare the numbers in different regions as the years 
+  increased, and thus to determine whether child malnutrition has improved. For the symptom of stunting, the 
+  overall global trend is decreasing. In addition, stunting prevalence and the number of effects is decreasing 
+  in all regions (Africa, Americas, South-East Asia, Eastern Mediterranean, Europe, and Western Pacific according
+  to WHO). This is a positive indicator that the phenomenon of malnourished children with this condition is
+  improving. However, the global incidence of overweight children leveled off between 2010 and 2020, and the 
+  number of persons affected rose year after year, with no improvement in the symptoms of being overweight. 
+  Simultaneously, there is little increase or stagnation in the number of overweight people in all areas except 
+  Europe, where the number of overweight people is decreasing year after year. This shows that child malnutrition 
+  is still a huge issue that must be addressed.",
+    style = "font-family: 'times'; font-si16pt ; font-size:22px;"
+  ),
+  p("We discovered that child malnutrition is still an issue through the aforementioned study, and we suspect
+  that income is one of the explanations, therefore we asked questions and utilized pie charts to analyze the 
+  impacts of different incomes on child malnutrition. Lower-middle income children had the highest percentage 
+  of stunting children, accounting for more than 60%, followed by low-income children, while upper-middle and 
+  high-income children had a lesser share. We think that precise data records may be difficult to get in low-income
+  communities due to the difficulties of data surveys and the reality that some children die from starvation. According
+  to these findings, poorer income has a stronger influence on stunting. The data for overweight children changed 
+  dramatically. Lower-middle and upper-middle incomes accounted for a sizable amount, 40.3% and 36.9%, respectively, suggesting
+  that medium income had a significant influence on overweight. Lower-middle income has 76.4% of the waste share, 
+  whereas high income has 0.46%. This might imply that lower-middle-income families have a substantial effect on 
+  wasting children.",
+    style = "font-family: 'times'; font-si16pt ; font-size:22px;"),
+  br(),
   h2(strong("Acknowledgements"), style = "font-family: 'times'; font-si16pt"),
   hr(style = "border-top: 1px solid #000000;"),
   p("We are very thankful for our friends that provided inspiration for us and helped us brainstorm.
