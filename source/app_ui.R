@@ -210,8 +210,6 @@ interactive_page_three <- tabPanel(
 
 summary_takeaways <- tabPanel(
   "Summary Takeaways",
-  h1("Summary Takeaways", style = " font-size: 43px ; font-family: 'times'; font-si16pt"),
-  br(),
   h2(strong("Stunted Kids over Regions"), style = "font-family: 'times'; font-si16pt"),
   hr(style = "border-top: 1px solid #000000;"),
   p("We can see that there are children in every region who are experiencing different symptoms of malnutrition. 
