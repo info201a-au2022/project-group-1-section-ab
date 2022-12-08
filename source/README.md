@@ -1,7 +1,7 @@
 # The `/source` Directory
 
 All of our project code is found in this directory.  We further organize our code into 
-these sub-directories (TODO: Update/Delete)
+these sub-directories
 
 |Source Directories | Brief Description|
 |---------------| -----------------|
@@ -14,14 +14,3 @@ these sub-directories (TODO: Update/Delete)
 |[chart3.R](./chart3.R) | The R code for plotting the third pie chart for the specific analyzing.
 |[summary_info.R](./summary_info.R) | The R code for calculating the summary data for specific analyzing.
 
-
-
-
-
-# DEVELOPER NOTE 1: About ... 
-* All source code for your projects should go in the `/source` directory
-* To organize your code, you might decide to create sub-directories
-* If you use sub-directories, plese briefly describe them in the table above
-* Please remember your audience (prospective employers, open source colleagues, TAs, Instructors). Therefore, 
-aim for clarity and conciseness.
-* When done, be sure to delete this NOTE sections (which are intended for you, of course, not your audience!)
